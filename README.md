@@ -1,6 +1,7 @@
 # ESP32 Websockets WiFi Switch
 
 ## Overview
+You can add this setup behind any Switch Plate/Switchboard in your house/office and you can control all the physical switches through webapp/app etc.
 This project implements a WiFi-controlled relay switch using an ESP32 NodeMCU board. The ESP32 connects to a WiFi network and communicates with a WebSocket server over LAN to receive commands and report relay state. The relay state is also controlled by a physical rocker switch with debounce handling. You can also use ESP32-12F
 
 ## What It Does
@@ -47,3 +48,15 @@ This project implements a WiFi-controlled relay switch using an ESP32 NodeMCU bo
 - Debounce implemented for physical switch.
 - Firmware sends acknowledgements, handles error commands, and maintains WebSocket connection with automatic reconnect.
 
+## Further development
+Make it available over the internet.
+Add auto timer functions, which will let user to assign the timer to turn On or Off automatically.
+Work on stability and size of the relay switch.
+Connect it through different sensers.
+
+## License
+This project is licensed under the ISC License.
+
+---
+
+Feel free to customize this README further as per your specific firmware or additional features.
